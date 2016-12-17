@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './style.css';
-import DifCulc from "./apps/Calculator/DifficultCalculator";
+import Culculator from "./apps/Calculator/DifficultCalculator";
+
 
 
 class App extends Component {
@@ -12,8 +13,9 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
+
         </div>
-        <DifCulc />
+        <Culculator />
       </div>
     );
   }
